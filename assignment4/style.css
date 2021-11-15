@@ -1,0 +1,18 @@
+<link rel="stylesheet"href="style.css"
+head {
+	background-color: lightblue;
+}
+body {
+  background-color:lightblue;
+}
+
+
+h1 {
+  color: yellow;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 60px;
+}
