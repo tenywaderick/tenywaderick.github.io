@@ -1,0 +1,146 @@
+.banner{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(image/cover.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.navbar-brand{
+  color: #fff;
+  font-size: 30px;
+}
+.navbar-brand:hover{
+  color: #fff;
+}
+.navbar ul li a{
+  text-transform: uppercase ;
+  color: #fff;
+}
+.navbar ul li a:hover{
+  color: #87CEEB;
+}
+.content{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: #fff;
+}
+.content h1{
+  font-size: 75px;
+  margin-top: 80px;
+}
+
+.content p{
+  margin: 20px;
+  font-weight:  100;
+  line-height: 20px;
+}
+button{
+  width: 200px;
+  padding: 15px 0;
+  text-align: center;
+  margin: 20px 10px;
+  border-radius: 25px;
+  font-weight: bold;
+  border: 2px solid 	#87CEEB;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+span{
+  background: 	#87CEEB;
+  height: 100%;
+  width: 0;
+  border-radius: 25px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: 0.5s;
+}
+button:hover span{
+  width: 100%;
+}
+button:hover{
+  border: none;
+}
+
+.services h3{
+  text-align: center;
+  font-size: 35px;
+  padding: 5px;
+}
+.services p{
+  text-align: center;
+  /* font-size: 35px; */
+  padding-bottom: 5px;
+}
+.img {
+  position: relative;
+  text-align: center;
+  color: white;
+
+}
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.img img{
+  -webkit-filter: blur(0.75px); /* Safari 6.0 - 9.0 */
+   filter: blur(0.75px);
+}
+.separator h1{
+  font-size: 40px;
+}
+.about{
+  margin-bottom: 25px
+}
+.about h3{
+  text-align: center;
+  font-size: 35px;
+  padding: 5px;
+}
+.about p{
+  text-align: center;
+  /* font-size: 35px; */
+  padding-bottom: 5px;
+}
+.aboutim{
+  width: 100%
+}
+.contact{
+  margin-top: 50px;
+  margin-bottom: 50PX;
+}
+.contact h3{
+  text-align: center;
+  font-size: 35px;
+  padding: 5px;
+}
+.contact p{
+  text-align: center;
+  /* font-size: 35px; */
+  padding-bottom: 5px;
+}
+.iclass i{
+  width: 100px;
+  height: 100px;
+  margin-bottom: 30px;
+}
+.iclass h5{
+  display: inline;
+  margin-bottom: 30px;
+  margin-left: 10px;
+}
+footer {
+  text-align: center;
+  padding: 3px;
+  background-image: linear-gradient(rgb(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(image/cover.jpg);
+  color: white;
+}
